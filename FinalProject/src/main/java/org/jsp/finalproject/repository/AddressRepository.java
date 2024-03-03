@@ -15,13 +15,10 @@ public interface AddressRepository extends JpaRepository<Branch, Integer> {
 	@Query("select b from Address b where b.street=?1")
 	public List<Address> findByStreet(String street);
 
-	
-	public Address save(Address address);
-	
 	@Query("select b from Address b where b.city=?1")
 	public List<Address> findByCity(String city);
+
 	@Query("select b from Address b where b.country=?1")
 	public List<Address> findByCountry(String country);
 
-	public void delete(Address address);
 }
