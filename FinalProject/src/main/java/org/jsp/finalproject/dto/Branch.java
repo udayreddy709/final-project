@@ -18,6 +18,9 @@ public class Branch {
 	private long phone;
 	@Column(nullable=false)
 	private String email;
+	
+	
+	
 	public int getId() {
 		return id;
 	}
