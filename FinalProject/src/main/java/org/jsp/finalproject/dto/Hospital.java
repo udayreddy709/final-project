@@ -1,4 +1,4 @@
-package org.jsp.finalproject.hospital.dto;
+package org.jsp.finalproject.dto;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
